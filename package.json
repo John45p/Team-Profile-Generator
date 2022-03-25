@@ -7,7 +7,9 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "jest --verbose tests/*"
+    "test": "jest --verbose test/*",
+    "start": "node index.js",
+    "reset": "node reset.js"
   },
   "keywords": [],
   "author": "",
